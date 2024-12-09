@@ -3,8 +3,9 @@
 .project {
 	mix-blend-mode: normal;
 	border-radius: 20px;
-	opacity: 0.8;
+	opacity: 1;
 	height: 100%;
+	background: antiquewhite;
 }
 
 .project a {
@@ -27,11 +28,12 @@
 }
 
 .project-logo {
-	width: 30px;
+	width: 100%;
+	height: auto;
 }
 
 .project-logo img {
-	width: 100%;
+	width: 50%;
 }
 
 .project-title {
@@ -45,7 +47,12 @@
 
 .project-description {
 	color: var(--secondary-color);
+	/*max-height: 7.5rem;*/
+	overflow: hidden;
+	text-overflow:  ellipsis;
+	/*line-height: 1.5rem;*/
 }
+
 
 .project-link {
 	display: flex;
@@ -63,6 +70,7 @@
 .project-link-text {
 	padding-left: 20px;
 	font-weight: 700;
+
 }
 
 @media (max-width: 600px) {

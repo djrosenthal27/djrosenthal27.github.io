@@ -4,6 +4,7 @@ const src = (image) =>  {return require("../components/common/images/" + image)}
 
 function article_1() {
 	return {
+		image: "cmyklash_title.png",
 		date: "",
 		title: "CMYKlash",
 		description:
@@ -75,6 +76,8 @@ function article_1() {
 
 function article_2() {
 	return {
+		image: "ebg_2.gif",
+		image2: "ebg_3.gif",
 		date: "",
 		title: "Earthbound Background Generator",
 		description:
@@ -153,6 +156,7 @@ function article_2() {
 
 function article_3() {
 	return {
+		image: "inf_inc_gameplay.gif",
 		date: "",
 		title: "Infiltration Inc.",
 		description:
@@ -229,6 +233,7 @@ function article_3() {
 
 function article_4() {
 	return {
+		image: "ds_transition.gif",
 		date: "",
 		title: "Driftscape",
 		description:
@@ -317,6 +322,7 @@ function article_4() {
 
 function article_5() {
 	return {
+		image: "quack_home.png",
 		date: "",
 		title: "Quack",
 		description:
@@ -404,6 +410,7 @@ function article_5() {
 
 function article_6() {
 	return {
+		image: "bowling_strike.gif",
 		date: "",
 		title: "Alley Apocalypse",
 		description:
@@ -467,6 +474,8 @@ function article_6() {
 
 function article_7() {
 	return {
+		image: "wrom_drain.gif",
+		image2: "wrom_virus_blink.gif",
 		date: "",
 		title: "What Remains of Me",
 		description:
@@ -565,6 +574,7 @@ function article_7() {
 
 function article_8() {
 	return {
+		image: "dea_style.png",
 		date: "",
 		title: "D.E.A. Journal",
 		description:
@@ -647,6 +657,7 @@ function article_8() {
 
 function article_9() {
 	return {
+		image: "froggen_bonk.gif",
 		date: "",
 		title: "Froggen",
 		description:
@@ -724,6 +735,7 @@ function article_9() {
 
 function article_10() {
 	return {
+		image: "pp_sketch.png",
 		date: "",
 		title: "Pulley Pong",
 		description:
@@ -783,6 +795,7 @@ function article_10() {
 
 function article_11() {
 	return {
+		image: "mit_rules.png",
 		date: "",
 		title: "MIT: Massive Invertebrate Tech",
 		description:
@@ -834,11 +847,12 @@ function article_11() {
 
 function article_12() {
 	return {
+		image: "cc_gameplay.png",
 		date: "",
 		title: "CardCrunch!",
 		description:
 			"CardCrunch! is an asymmetrical competitive card game where three \"developer\" players must fulfill a hand " +
-			"of cards assigned to them by \"Task!\" cards during a series of 15-second turns, while a \"manager\" " +
+			"of cards assigned to them by \"Task!\" cards during a series of 15-second turns. Meanwhile, a \"manager\" " +
 			"player must complete a more difficult hand assigned to them by a \"Crunch!\" card during the same turns. " +
 			"Successful completion of a \"Crunch!\" card gives developers a disadvantage during their next turn. The " +
 			"developers win if they all complete their tasks during one of the turns, but the manager wins if they " +
