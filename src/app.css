@@ -65,6 +65,14 @@
 	margin-top: 25px;
 }
 
+.subheader {
+	color: var(--primary-color);
+	font-family: var(--secondary-font);
+	font-size: 36px;
+	font-weight: 700;
+	width: 70%;
+}
+
 .page-footer {
 	position: block;
 }

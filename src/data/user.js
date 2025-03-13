@@ -2,7 +2,7 @@ const INFO = {
 	main: {
 		title: "Daniel Rosenthal Game Dev Portfolio",
 		name: "Daniel Rosenthal",
-		email: "rosenthal.dan@northeastern.edu",
+		email: "djrosenthal004@gmail.com",
 		logo: "../logo.png",
 	},
 
@@ -10,15 +10,22 @@ const INFO = {
 		// twitter: "https://twitter.com/",
 		github: "https://github.com/",
 		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
+		// instagram: "https://instagram.com/",
+		// stackoverflow: "https://stackoverflow.com/",
+		// facebook: "https://facebook.com/",
 	},
 
 	homepage: {
 		title: "Welcome!",
 		description:
-			"",
+			"My name is Daniel Rosenthal! I’m a junior at Northeastern University studying Computer Science and Game " +
+			"Development. In addition to developing games with Unity, I have experience in web and software development," +
+			" mostly with academic and practical applications towards games. My passion for creative uses of " +
+			"computer science stems from my love of taking on complex challenges that require critical-thinking and" +
+			" problem-solving, as well as my understanding of the potential for self-expression through digital mediums.\n\n"
+		+ "I have a vast range of interests and a natural disposition for learning, whether it be for expanding my" +
+			" skill set or exploring new subjects and concepts. When I’m not coding, I  " +
+			"play the drum set for several groups at Northeastern, including the Northeastern Pep Band."
 	},
 
 	about: {

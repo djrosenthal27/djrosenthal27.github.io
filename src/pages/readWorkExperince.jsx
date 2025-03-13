@@ -11,29 +11,30 @@ import INFO from "../data/user";
 import myArticles from "../data/articles";
 
 import "./styles/readArticle.css";
+import myWorkExperiences from "../data/workExperiences";
 
 let ArticleStyle = styled.div``;
 
-const ReadArticle = () => {
+const ReadWorkExperience = () => {
 	const navigate = useNavigate();
 	let { slug } = useParams();
 
-	const article = myArticles[slug - 1];
+	const workExperience = myWorkExperiences[slug - 1];
 
 	useEffect(() => {
 		window.scrollTo(0, 0);
-	}, [article]);
+	}, [workExperience]);
 
 	ArticleStyle = styled.div`
-		${article().style}
+		${workExperience().style}
 	`;
 
 	return (
 		<React.Fragment>
 			<Helmet>
-				<title>{`${article().title} | ${INFO.main.title}`}</title>
-				<meta name="description" content={article().description} />
-				<meta name="keywords" content={article().keywords.join(", ")} />
+				<title>{`${workExperience().title} | ${INFO.main.title}`}</title>
+				<meta name="description" content={workExperience().description} />
+				<meta name="keywords" content={workExperience().keywords.join(", ")} />
 			</Helmet>
 
 			<div className="page-content">
@@ -56,24 +57,27 @@ const ReadArticle = () => {
 							/>
 						</div>
 
-						<div className="read-article-wrapper">
+						<div className="read-work-experience-wrapper">
 							<div className="read-article-date-container">
 								<div className="read-article-date">
-									{article().date}
+									{workExperience().date}
 								</div>
 							</div>
 
-							<div className="title read-article-title">
-								{article().title}
+							<div className="title read-article-title" style={{paddingBottom: 0}}>
+								{workExperience().organization}
+							</div>
+							<div className="subheader read-article-title" style={{paddingTop: 10}}>
+								{workExperience().title}
 							</div>
 
 							<div className="read-article-body">
-								<ArticleStyle>{article().body}</ArticleStyle>
+								<ArticleStyle>{workExperience().body}</ArticleStyle>
 							</div>
 						</div>
 					</div>
 					<div className="page-footer">
-						<Footer />
+						<Footer/>
 					</div>
 				</div>
 			</div>
@@ -81,4 +85,4 @@ const ReadArticle = () => {
 	);
 };
 
-export default ReadArticle;
+export default ReadWorkExperience;

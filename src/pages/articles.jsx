@@ -31,7 +31,7 @@ const Articles = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="articles" />
+				{/*<NavBar active="articles" />*/}
 				<div className="content-wrapper">
 					<div className="articles-logo-container">
 						<div className="articles-logo">
@@ -60,7 +60,7 @@ const Articles = () => {
 											date={article().date}
 											title={article().title}
 											description={article().description}
-											link={"/article/" + (index + 1)}
+											link={"/project/" + (index + 1)}
 										/>
 									</div>
 								))}

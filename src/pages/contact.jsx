@@ -30,7 +30,7 @@ const Contact = () => {
 			</Helmet>
 
 			<div className="page-content">
-				<NavBar active="contact" />
+				{/*<NavBar active="contact" />*/}
 				<div className="content-wrapper">
 					<div className="contact-logo-container">
 						<div className="contact-logo">
@@ -59,13 +59,13 @@ const Contact = () => {
 							required fields and I'll get back to you as soon as
 							possible. Finally, if you prefer to connect on
 							social media, you can find me on{" "}
-							<a
-								href={INFO.socials.instagram}
-								target="_blank"
-								rel="noreferrer"
-							>
-								{INFO.socials.instagram}
-							</a>
+							{/*<a*/}
+							{/*	href={INFO.socials.instagram}*/}
+							{/*	target="_blank"*/}
+							{/*	rel="noreferrer"*/}
+							{/*>*/}
+							{/*	{INFO.socials.instagram}*/}
+							{/*</a>*/}
 							. I post regular updates and engage with my
 							followers there, so don't hesitate to reach out.
 							Thanks again for your interest, and I look forward

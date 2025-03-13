@@ -18,7 +18,7 @@ const AllProjects = () => {
 						title={project().title}
 						description={project().description}
 						linkText={"View project"}
-						link={"/article/" + (index + 1)}
+						link={"/project/" + (index + 1)}
 						idNumber={(index + 1)}
 					/>
 				</div>

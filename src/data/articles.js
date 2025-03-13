@@ -5,7 +5,7 @@ const src = (image) =>  {return require("../components/common/images/" + image)}
 function article_1() {
 	return {
 		image: "cmyklash_title.png",
-		date: "",
+		date: "July 2023 - March 2024",
 		title: "CMYKlash",
 		description:
 			"CMYKlash is a color-based bullet hell game where the player controls a triangle with three vertices and a " +
@@ -78,7 +78,7 @@ function article_2() {
 	return {
 		image: "ebg_2.gif",
 		image2: "ebg_3.gif",
-		date: "",
+		date: "July 2023 - Present",
 		title: "Earthbound Background Generator",
 		description:
 			"Earthbound Background Generator is an in-progress solo project that allows users to " +
@@ -157,7 +157,7 @@ function article_2() {
 function article_3() {
 	return {
 		image: "inf_inc_gameplay.gif",
-		date: "",
+		date: "February 2024 - April 2024",
 		title: "Infiltration Inc.",
 		description:
 			"Infiltration Inc. is a tactical first person shooter and stealth game. You play as Valentina Dawson, " +
@@ -234,7 +234,7 @@ function article_3() {
 function article_4() {
 	return {
 		image: "ds_transition.gif",
-		date: "",
+		date: "March 2023 - April 2023",
 		title: "Driftscape",
 		description:
 			"Driftscape is a narrative-based game about Alex, an office worker who becomes disillusioned and bored " +
@@ -323,7 +323,7 @@ function article_4() {
 function article_5() {
 	return {
 		image: "quack_home.png",
-		date: "",
+		date: "March 2024",
 		title: "Quack",
 		description:
 			"Quack is a short visual novel about a duck who must perform odd jobs to provide bread for his family." +
@@ -411,7 +411,7 @@ function article_5() {
 function article_6() {
 	return {
 		image: "bowling_strike.gif",
-		date: "",
+		date: "February 2024",
 		title: "Alley Apocalypse",
 		description:
 			"Alley Apocalypse is a first-person shooter where the player is a bowler who must defend themself from" +
@@ -476,7 +476,7 @@ function article_7() {
 	return {
 		image: "wrom_drain.gif",
 		image2: "wrom_virus_blink.gif",
-		date: "",
+		date: "September 2023 - December 2023",
 		title: "What Remains of Me",
 		description:
 			"What Remains of Me is an in-development, class-wide game built across multiple semesters in the " +
@@ -575,7 +575,7 @@ function article_7() {
 function article_8() {
 	return {
 		image: "dea_style.png",
-		date: "",
+		date: "June 2023",
 		title: "D.E.A. Journal",
 		description:
 			"D.E.A. Journal is a bullet journal application that allows users to plan out a "
@@ -658,7 +658,7 @@ function article_8() {
 function article_9() {
 	return {
 		image: "froggen_bonk.gif",
-		date: "",
+		date: "March 2023 - April 2023",
 		title: "Froggen",
 		description:
 			"Froggen is a comedic precision-platformer starring Froggen, a frog on a journey to rescue his kidnapped " +
@@ -736,7 +736,7 @@ function article_9() {
 function article_10() {
 	return {
 		image: "pp_sketch.png",
-		date: "",
+		date: "February 2024 - April 2024",
 		title: "Pulley Pong",
 		description:
 			"Pulley Pong is a skill-based game where pairs of players must score points by " +
@@ -796,7 +796,7 @@ function article_10() {
 function article_11() {
 	return {
 		image: "mit_rules.png",
-		date: "",
+		date: "February 2023",
 		title: "MIT: Massive Invertebrate Tech",
 		description:
 			"MIT: Massive Invertebrate Tech is a comedic tabletop micro-RPG set in a world where all " +
@@ -848,7 +848,7 @@ function article_11() {
 function article_12() {
 	return {
 		image: "cc_gameplay.png",
-		date: "",
+		date: "November 2022 - December 2022",
 		title: "CardCrunch!",
 		description:
 			"CardCrunch! is an asymmetrical competitive card game where three \"developer\" players must fulfill a hand " +
